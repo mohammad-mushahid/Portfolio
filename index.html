@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mohammad Mushahid | Python Developer</title>
+<meta name="description" content="Portfolio of Mohammad Mushahid, entry-level Python Developer and BCA graduate.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐍%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progress"></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+
+<header class="nav glass">
+  <a href="#home" class="logo">MM</a>
+  <nav id="menu" aria-label="Main">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    <span class="ind" id="ind"></span>
+  </nav>
+  <button id="theme" class="icon-btn" aria-label="Switch theme">◐</button>
+  <button id="burger" class="icon-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-in">
+    <p class="hello"><span class="pulse"></span>Open to entry-level Python roles</p>
+    <h1><span class="grad">Mohammad Mushahid</span></h1>
+    <p class="role" id="role" data-words="Python Developer|Full Stack Trainee|SQL &amp; Database Learner|BCA Graduate"></p>
+    <p class="lead">Entry-level Python Developer with hands-on training in Python full stack development, SQL databases and web technologies. I built a machine learning-based cyber attack detection system using Python, Flask, Streamlit, MongoDB and Nmap.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">View project</a>
+      <a class="btn ghost" href="assets/Mohammad_Mushahid_Resume.pdf" download>Download resume</a>
+      <a class="btn ghost" href="#contact">Contact me</a>
+    </div>
+  </div>
+  <div class="hero-card glass tilt">
+    <div class="dots"><i></i><i></i><i></i></div>
+    <pre><code><b>class</b> Developer:
+    name   = "Mohammad Mushahid"
+    degree = "BCA, 8.35 CGPA"
+    stack  = ["Python", "SQL",
+              "Flask", "MongoDB"]
+    status = "Ongoing: Python
+              Full Stack, PySpiders"</code></pre>
+  </div>
+</section>
+
+<section id="about" class="sec">
+  <h2 class="reveal">About me</h2>
+  <div class="about reveal glass">
+    <p>I am a BCA graduate (8.35 CGPA) from St. Philomena's College, Mysore, currently training in Python full stack development. I have a strong foundation in object-oriented programming, database design and normalization.</p>
+    <p>I am looking to contribute to application development and database-driven projects in an IT organization, applying OWASP security concepts and machine learning where they fit.</p>
+    <div class="stats">
+      <div><b data-count="8.35">8.35</b><span>BCA CGPA</span></div>
+      <div><b>Aug–Oct 2025</b><span>Python internship</span></div>
+      <div><b>Ongoing</b><span>Full stack training</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <h2 class="reveal">Technical skills</h2>
+  <div class="grid skills">
+    <article class="card glass tilt reveal"><h3>Programming languages</h3><div class="tags"><span>Python</span><span>SQL</span><span>JavaScript</span></div></article>
+    <article class="card glass tilt reveal"><h3>Python concepts</h3><div class="tags"><span>OOP</span><span>Functions</span><span>Exception handling</span><span>File handling</span><span>Data types</span><span>Loops</span><span>Lists</span></div></article>
+    <article class="card glass tilt reveal"><h3>Web technologies</h3><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Flask</span><span>Streamlit</span></div></article>
+    <article class="card glass tilt reveal"><h3>Databases</h3><div class="tags"><span>SQL</span><span>MongoDB</span><span>JOINs</span><span>Subqueries</span><span>GROUP BY</span><span>HAVING</span><span>Constraints</span><span>Normalization</span></div></article>
+    <article class="card glass tilt reveal"><h3>Security and tools</h3><div class="tags"><span>Nmap</span><span>OWASP security concepts</span><span>Machine learning</span></div></article>
+  </div>
+</section>
+
+<section id="projects" class="sec">
+  <h2 class="reveal">Projects</h2>
+  <article class="project glass reveal">
+    <div class="ph"><h3>AI-Based Cyber Attack Prediction System</h3><span class="badge">Academic project</span></div>
+    <ul>
+      <li>Developed a machine learning-based system in Python to detect and classify cyber attacks, applying OWASP security concepts to the design.</li>
+      <li>Integrated the trained model into an interactive Streamlit web application to deliver attack predictions through a browser interface.</li>
+      <li>Built the web front end with HTML, CSS and JavaScript, used MongoDB for data management, and incorporated Nmap for network scanning.</li>
+    </ul>
+    <div class="tags"><span>Python</span><span>Flask</span><span>Streamlit</span><span>Nmap</span><span>MongoDB</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>OWASP</span></div>
+  </article>
+</section>
+
+<section id="experience" class="sec">
+  <h2 class="reveal">Internship and training</h2>
+  <div class="timeline">
+    <article class="tl reveal glass">
+      <time>Aug 2025 – Oct 2025</time><h3>Python Intern</h3><p class="org">A.W Academy</p>
+      <ul>
+        <li>Supported customer requirement analysis and issue resolution, strengthening problem-solving and process-control skills.</li>
+        <li>Followed standard business processes and quality procedures while collaborating with team members on assigned tasks.</li>
+        <li>Strengthened communication, teamwork and analytical thinking in a professional work environment.</li>
+      </ul>
+    </article>
+    <article class="tl reveal glass">
+      <time>Ongoing</time><h3>Python Full Stack Development</h3><p class="org">PySpiders (training)</p>
+      <ul>
+        <li>Practicing Python programming with loops, functions, conditional statements and object-oriented concepts.</li>
+        <li>Writing SQL queries using JOINs, subqueries, aggregate functions and constraints.</li>
+        <li>Studying database design, keys, relationships and normalization.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="education" class="sec">
+  <h2 class="reveal">Education</h2>
+  <div class="timeline">
+    <article class="tl reveal glass"><time>2026</time><h3>Bachelor of Computer Applications</h3><p class="org">St. Philomena's College, Mysore</p><p>CGPA: 8.35</p></article>
+    <article class="tl reveal glass"><time>2023</time><h3>PUC (Commerce)</h3><p class="org">Seshadripuram PU College</p><p>82%</p></article>
+    <article class="tl reveal glass"><time>2021</time><h3>SSLC</h3><p class="org">B.G.S High School</p><p>85%</p></article>
+  </div>
+</section>
+
+<section id="contact" class="sec">
+  <h2 class="reveal">Contact</h2>
+  <div class="contact glass reveal">
+    <p>I am open to entry-level Python developer and database-driven application roles. Reach out by email or phone.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:mohammadmushahid217@gmail.com">mohammadmushahid217@gmail.com</a>
+      <button class="btn ghost" id="copy" type="button">Copy email</button>
+      <a class="btn ghost" href="tel:+918123825464">+91 8123825464</a>
+    </div>
+    <p id="toast" role="status" aria-live="polite"></p>
+  </div>
+</section>
+</main>
+<footer>© <span id="yr"></span> Mohammad Mushahid</footer>
+<script src="script.js"></script>
+</body>
+</html>
